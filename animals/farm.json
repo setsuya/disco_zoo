@@ -1,0 +1,38 @@
+{"animals": [
+	{
+		"name": "Sheep",
+		"type": "common",
+		"pattern": "1111",
+		"strategy": "0010000100001000010000100"
+	},
+	{
+		"name": "Pig",
+		"type": "common",
+		"pattern": "11211",
+		"strategy": "0000001010000000101000000"
+	},
+	{
+		"name": "Rabbit",
+		"type": "common",
+		"pattern": "1212121",
+		"strategy": "0000000000111110000000000"
+	},
+	{
+		"name": "Horse",
+		"type": "rare",
+		"pattern": "12121",
+		"strategy": "0000000000111110000000000"
+	},
+	{
+		"name": "Cow",
+		"type": "rare",
+		"pattern": "111",
+		"strategy": "0010000100001000010000100"
+	},
+	{
+		"name": "Unicorn",
+		"type": "mythical",
+		"pattern": "12011",
+		"strategy": "0010000100001000010000100"
+	}
+]}

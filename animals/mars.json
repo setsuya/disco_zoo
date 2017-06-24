@@ -1,0 +1,38 @@
+{"animals": [
+	{
+		"name": "Rock",
+		"type": "common",
+		"pattern": "11211",
+		"strategy": "0000001010000000101000000"
+	},
+	{
+		"name": "Marsmoset",
+		"type": "common",
+		"pattern": "1012001201",
+		"strategy": "0000000000011110000000000"
+	},
+	{
+		"name": "Marsmot",
+		"type": "common",
+		"pattern": "01201211",
+		"strategy": "0000000000011110000000000"
+	},
+	{
+		"name": "Martian",
+		"type": "rare",
+		"pattern": "101201",
+		"strategy": "0010000100001000010000100"
+	},
+	{
+		"name": "Rover",
+		"type": "rare",
+		"pattern": "012101",
+		"strategy": "0010000100001000010000100"
+	},
+	{
+		"name": "Marsmallow",
+		"type": "mythical",
+		"pattern": "12021",
+		"strategy": "0000000000111111111100000"
+	}
+]}

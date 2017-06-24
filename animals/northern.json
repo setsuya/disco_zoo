@@ -1,0 +1,38 @@
+{"animals": [
+	{
+		"name": "Bear",
+		"type": "common",
+		"pattern": "11201201",
+		"strategy": "0000000000011110000000000"
+	},
+	{
+		"name": "Skunk",
+		"type": "common",
+		"pattern": "011211",
+		"strategy": "0010000100001000010000100"
+	},
+	{
+		"name": "Beaver",
+		"type": "common",
+		"pattern": "0012112001",
+		"strategy": "0000000100001000010000000"
+	},
+	{
+		"name": "Moose",
+		"type": "rare",
+		"pattern": "101201",
+		"strategy": "0010000100001000010000100"
+	},
+	{
+		"name": "Fox",
+		"type": "rare",
+		"pattern": "112001",
+		"strategy": "0010000100001000010000100"
+	},
+	{
+		"name": "Sasquatch",
+		"type": "mythical",
+		"pattern": "121",
+		"strategy": "0000011111000001111100000"
+	}
+]}

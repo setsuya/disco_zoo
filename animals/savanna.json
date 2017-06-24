@@ -1,0 +1,38 @@
+{"animals": [
+	{
+		"name": "Zebra",
+		"type": "common",
+		"pattern": "012101201",
+		"strategy": "0000000000011100000000000"
+	},
+	{
+		"name": "Hippo",
+		"type": "common",
+		"pattern": "101202101",
+		"strategy": "0000001100011000000000000"
+	},
+	{
+		"name": "Giraffe",
+		"type": "common",
+		"pattern": "1212121",
+		"strategy": "0000000000111110000000000"
+	},
+	{
+		"name": "Lion",
+		"type": "rare",
+		"pattern": "111",
+		"strategy": "0010000100001000010000100"
+	},
+	{
+		"name": "Elephant",
+		"type": "rare",
+		"pattern": "1121",
+		"strategy": "0000011110000001111000000"
+	},
+	{
+		"name": "Gryphon",
+		"type": "mythical",
+		"pattern": "101201",
+		"strategy": "0010000100001000010000100"
+	}
+]}

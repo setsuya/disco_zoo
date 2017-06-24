@@ -1,0 +1,38 @@
+{"animals": [
+	{
+		"name": "Diplodocus",
+		"type": "common",
+		"pattern": "12011201",
+		"strategy": "0000000000111100000000000"
+	},
+	{
+		"name": "Stegosaurus",
+		"type": "common",
+		"pattern": "01121001",
+		"strategy": "0010000100001000010000000"
+	},
+	{
+		"name": "Raptor",
+		"type": "common",
+		"pattern": "112012001",
+		"strategy": "0000000000011110000000000"
+	},
+	{
+		"name": "T-Rex",
+		"type": "rare",
+		"pattern": "120211",
+		"strategy": "0000000000010100101001010"
+	},
+	{
+		"name": "Triceratops",
+		"type": "rare",
+		"pattern": "1200121",
+		"strategy": "0000000000111110000000000"
+	},
+	{
+		"name": "Dragon",
+		"type": "mythical",
+		"pattern": "12001",
+		"strategy": "0010000110001100011000110"
+	}
+]}

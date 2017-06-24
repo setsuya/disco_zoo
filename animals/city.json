@@ -1,0 +1,38 @@
+{"animals": [
+	{
+		"name": "Raccoon",
+		"type": "common",
+		"pattern": "10121001",
+		"strategy": "0000011000000001100000000"
+	},
+	{
+		"name": "Pigeon",
+		"type": "common",
+		"pattern": "12012011",
+		"strategy": "0000000000010100101000000"
+	},
+	{
+		"name": "Rat",
+		"type": "common",
+		"pattern": "1120101",
+		"strategy": "0100001000010000100000000"
+	},
+	{
+		"name": "Squirrel",
+		"type": "rare",
+		"pattern": "00121201",
+		"strategy": "0000000000111110000000000"
+	},
+	{
+		"name": "Opossum",
+		"type": "rare",
+		"pattern": "12101",
+		"strategy": "0000011100000001110000000"
+	},
+	{
+		"name": "Sewer Turtle",
+		"type": "mythical",
+		"pattern": "11",
+		"strategy": "0101001010010100101001010"
+	}
+]}

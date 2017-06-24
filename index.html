@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+	<head>
+		<title>Disco Zoo Animal Finder</title>
+		<link href="https://fonts.googleapis.com/css?family=Lobster+Two:400i" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">
+		<script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/JavaScript" src="js/mousetrap.js"></script>
+		<script type="text/JavaScript" src="js/scripts.js"></script>
+		<link rel="stylesheet" type="text/CSS" href="css/styles.css" />
+	</head>
+	<body>
+		<div id="header">
+			<img src="img/logo.png" />
+			<p>Animal Finder</p>
+		</div>
+		<div id="area">
+			<button type="button" id="farm">Farm <div class="kbd">1</div></button>
+			<button type="button" id="outback">Outback <div class="kbd">2</div></button>
+			<button type="button" id="savanna">Savanna <div class="kbd">3</div></button>
+			<button type="button" id="northern">Northern <div class="kbd">4</div></button>
+			<button type="button" id="polar">Polar <div class="kbd">5</div></button>
+			<button type="button" id="jungle">Jungle <div class="kbd">6</div></button>
+			<button type="button" id="jurassic">Jurassic <div class="kbd">7</div></button>
+			<button type="button" id="ice_age">Ice Age <div class="kbd">8</div></button>
+			<button type="button" id="city">City <div class="kbd">9</div></button>
+			<button type="button" id="mountain">Mountain <div class="kbd">0</div></button>
+			<button type="button" id="moon">Moon <div class="kbd">-</div></button>
+			<button type="button" id="mars">Mars <div class="kbd">=</div></button>
+		</div>
+		<div id="animals">
+			<div class="animal">
+				<input type="hidden" value="" />
+				<div class="common_pattern"><img src="img/star_off.png" /></div>
+				<img class="common" src="img/animals/default.png" />
+				<p>?????</p>
+				<div class="check"><div class="kbd">Q</div></div>
+			</div>
+			<div class="animal">
+				<input type="hidden" value="" />
+				<div class="common_pattern"><img src="img/star_off.png" /></div>
+				<img class="common" src="img/animals/default.png" />
+				<p>?????</p>
+				<div class="check"><div class="kbd">W</div></div>
+			</div>
+			<div class="animal">
+				<input type="hidden" value="" />
+				<div class="common_pattern"><img src="img/star_off.png" /></div>
+				<img class="common" src="img/animals/default.png" />
+				<p>?????</p>
+				<div class="check"><div class="kbd">E</div></div>
+			</div>
+			<div class="animal">
+				<input type="hidden" value="" />
+				<div class="rare_pattern"><img src="img/star_off.png" /></div>
+				<img class="rare" src="img/animals/default.png" />
+				<p>?????</p>
+				<div class="check"><div class="kbd">R</div></div>
+			</div>
+			<div class="animal">
+				<input type="hidden" value="" />
+				<div class="rare_pattern"><img src="img/star_off.png" /></div>
+				<img class="rare" src="img/animals/default.png" />
+				<p>?????</p>
+				<div class="check"><div class="kbd">T</div></div>
+			</div>
+			<div class="animal">
+				<input type="hidden" value="" />
+				<div class="mythical_pattern"><img src="img/star_off.png" /></div>
+				<img class="mythical" src="img/animals/default.png" />
+				<p>?????</p>
+				<div class="check"><div class="kbd">Y</div></div>
+			</div>
+		</div>
+		<div id="result">
+			<div id="line_1">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<div id="line_2">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<div id="line_3">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<div id="line_4">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<div id="line_5">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<button type="button" id="clear">Clear <div class="kbd">C</div></button>
+		</div>
+		<div id="disco">
+			<button type="button" id="start_disco">PARTY! <div class="kbd">P</div></button>
+		</div>
+		<audio>
+			<source src="animals/disco.mp3" type="audio/mpeg" />
+		</audio>
+		<div id="party">
+			<div id="party_overlay"></div>
+			<div id="party_globe">
+				<img src="img/ball.gif" />
+				<img class="dance_animal" src="img/animals/DiscoUnicorn.png" />
+				<img class="dance_animal" src="img/animals/DiscoTiddalik.png" />
+				<img class="dance_animal" src="img/animals/DiscoGryphon.png" />
+				<img class="dance_animal" src="img/animals/DiscoSasquatch.png" />
+				<img class="dance_animal" src="img/animals/DiscoYeti.png" />
+				<img class="dance_animal" src="img/animals/DiscoPhoenix.png" />
+				<img class="dance_animal" src="img/animals/DiscoDragon.png" />
+				<img class="dance_animal" src="img/animals/DiscoAkhlut.png" />
+				<img class="dance_animal" src="img/animals/DiscoSewer%20Turtle.png" />
+				<img class="dance_animal" src="img/animals/DiscoAatxe.png" />
+				<img class="dance_animal" src="img/animals/DiscoJade%20Rabbit.png" />
+				<img class="dance_animal" src="img/animals/DiscoMarsmallow.png" />
+			</div>
+		</div>
+		<div id="footer">This and more on<img src="img/GitHub-Mark-Light-32px.png">by <a href="https://github.com/setsuya" target="_blank">@Setsuya</a>.<div id="version">v.1.0</div></div>
+	</body>
+</html>

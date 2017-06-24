@@ -1,0 +1,38 @@
+{"animals": [
+	{
+		"name": "Kangaroo",
+		"type": "common",
+		"pattern": "1201200120001",
+		"strategy": "0100011000000000000000000"
+	},
+	{
+		"name": "Platypus",
+		"type": "common",
+		"pattern": "112011",
+		"strategy": "0010000100001000010000100"
+	},
+	{
+		"name": "Crocodile",
+		"type": "common",
+		"pattern": "1111",
+		"strategy": "0010000100001000010000100"
+	},
+	{
+		"name": "Koala",
+		"type": "rare",
+		"pattern": "11201",
+		"strategy": "0000001111000000111100000"
+	},
+	{
+		"name": "Cockatoo",
+		"type": "rare",
+		"pattern": "1201201",
+		"strategy": "0000000000111110000000000"
+	},
+	{
+		"name": "Tiddalik",
+		"type": "mythical",
+		"pattern": "012101",
+		"strategy": "0010000100001000010000100"
+	}
+]}

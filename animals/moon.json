@@ -1,0 +1,38 @@
+{"animals": [
+	{
+		"name": "Moonkey",
+		"type": "common",
+		"pattern": "121012001",
+		"strategy": "0000000000111110000000000"
+	},
+	{
+		"name": "Lunar Tick",
+		"type": "common",
+		"pattern": "01202012101",
+		"strategy": "0000000000000000111000000"
+	},
+	{
+		"name": "Tribble",
+		"type": "common",
+		"pattern": "012111",
+		"strategy": "0000000100001000010000100"
+	},
+	{
+		"name": "Moonicorn",
+		"type": "rare",
+		"pattern": "1211",
+		"strategy": "0000011110000001111000000"
+	},
+	{
+		"name": "Luna Moth",
+		"type": "rare",
+		"pattern": "10120201",
+		"strategy": "0010000100001000010000100"
+	},
+	{
+		"name": "Jade Rabbit",
+		"type": "mythical",
+		"pattern": "120201",
+		"strategy": "0000000000111110111100000"
+	}
+]}

@@ -1,0 +1,38 @@
+{"animals": [
+	{
+		"name": "Monkey",
+		"type": "common",
+		"pattern": "10120101",
+		"strategy": "0010000100001000010000100"
+	},
+	{
+		"name": "Toucan",
+		"type": "common",
+		"pattern": "0121201201",
+		"strategy": "0000000000111110000000000"
+	},
+	{
+		"name": "Gorilla",
+		"type": "common",
+		"pattern": "1012101",
+		"strategy": "0000000110000000011000000"
+	},
+	{
+		"name": "Panda",
+		"type": "rare",
+		"pattern": "001212001",
+		"strategy": "0000000000111110000000000"
+	},
+	{
+		"name": "Tiger",
+		"type": "rare",
+		"pattern": "1011",
+		"strategy": "0001000010000100001000010"
+	},
+	{
+		"name": "Phoenix",
+		"type": "mythical",
+		"pattern": "1202001",
+		"strategy": "0000000000001110011100110"
+	}
+]}

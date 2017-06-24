@@ -1,0 +1,38 @@
+{"animals": [
+	{
+		"name": "Wooly Rhino",
+		"type": "common",
+		"pattern": "00121001201",
+		"strategy": "0000000000011100000000000"
+	},
+	{
+		"name": "Giant Sloth",
+		"type": "common",
+		"pattern": "120012101",
+		"strategy": "0000000000001100011000000"
+	},
+	{
+		"name": "Dire Wolf",
+		"type": "common",
+		"pattern": "0121001201",
+		"strategy": "0000001000010000100000000"
+	},
+	{
+		"name": "Saber Tooth",
+		"type": "rare",
+		"pattern": "12001201",
+		"strategy": "0000000000111110000000000"
+	},
+	{
+		"name": "Mammoth",
+		"type": "rare",
+		"pattern": "01212001",
+		"strategy": "0000000000111110000000000"
+	},
+	{
+		"name": "Akhlut",
+		"type": "mythical",
+		"pattern": "001212001",
+		"strategy": "0000000000111110000000000"
+	}
+]}

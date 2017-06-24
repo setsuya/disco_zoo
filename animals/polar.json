@@ -1,0 +1,38 @@
+{"animals": [
+	{
+		"name": "Penguin",
+		"type": "common",
+		"pattern": "012012101",
+		"strategy": "0000000000011100000000000"
+	},
+	{
+		"name": "Seal",
+		"type": "common",
+		"pattern": "1201012001",
+		"strategy": "0000000100001000010000100"
+	},
+	{
+		"name": "Muskox",
+		"type": "common",
+		"pattern": "112101",
+		"strategy": "0010000100001000010000100"
+	},
+	{
+		"name": "Polar Bear",
+		"type": "rare",
+		"pattern": "1012001",
+		"strategy": "0000000111000000011100000"
+	},
+	{
+		"name": "Walrus",
+		"type": "rare",
+		"pattern": "12011",
+		"strategy": "0010000100001000010000100"
+	},
+	{
+		"name": "Yeti",
+		"type": "mythical",
+		"pattern": "12021",
+		"strategy": "0000000000111111111100000"
+	}
+]}
