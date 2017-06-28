@@ -75,7 +75,7 @@ button{
 }
 
 .selected{
-	background: #fff url("/img/check.png") center center no-repeat;
+	background: #fff url("../img/check.png") center center no-repeat;
 }
 
 .common_pattern > .overlay{
